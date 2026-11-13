@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffe5ee" />
+  <title>Happy Birthday Rishikesh! 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <div id="confetti-layer" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#home">R <span>♡</span> R</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#gallery">Photos</a>
+      <a href="#memories">Memories</a>
+      <a href="#wishes">Wishes</a>
+      <a href="#surprise">Surprise</a>
+    </div>
+    <button class="music-nav" id="musicToggle" aria-label="Play or pause music">♫ <span id="musicLabel">Play music</span></button>
+  </nav>
+
+  <main>
+    <!-- 1. WELCOME / HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-sparkle sparkle-a">✦</div>
+      <div class="hero-sparkle sparkle-b">♡</div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span></span> A little celebration of you <span></span></p>
+        <h1>Happy Birthday,<br><em>Rishikesh KA!</em></h1>
+        <p class="hero-subtitle">To my favourite person, my happiest thought, and someone who makes ordinary days feel special.</p>
+        <a class="primary-btn" href="#gallery">Let's celebrate <span>↓</span></a>
+        <p class="from-line">With love, <strong>Revathi</strong> ♡</p>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-heart">♥</div>
+        <div class="floating-balloon balloon-one">♥</div>
+        <div class="floating-balloon balloon-two">♥</div>
+        <div class="floating-balloon balloon-three">♥</div>
+        <div class="hero-caption">you are loved<br><span>more than words can say</span></div>
+      </div>
+      <div class="scroll-cue">SCROLL TO UNWRAP THE LOVE <span>↓</span></div>
+    </section>
+
+    <!-- 2. PHOTO GALLERY -->
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Little pieces of you</p>
+        <h2>Your <em>photo album</em></h2>
+        <p>Some moments deserve to be kept close forever.</p>
+      </div>
+      <div class="gallery-grid">
+        <button class="photo-card photo-tall reveal" data-photo="images/photo1.jpg" data-caption="One of my favourite memories with you">
+          <img src="images/photo1.jpg" alt="Add your first favourite photo" onerror="this.src='https://placehold.co/700x900/f8c9d8/8e4761?text=Add+photo1.jpg'">
+          <span class="photo-label">a favourite moment ♡</span>
+        </button>
+        <button class="photo-card reveal" data-photo="images/photo2.jpg" data-caption="A moment I wish I could relive">
+          <img src="images/photo2.jpg" alt="Add your second favourite photo" onerror="this.src='https://placehold.co/700x700/f5dce5/8e4761?text=Add+photo2.jpg'">
+          <span class="photo-label">one for the memories</span>
+        </button>
+        <button class="photo-card reveal" data-photo="images/photo3.jpg" data-caption="You make every picture feel special">
+          <img src="images/photo3.jpg" alt="Add your third favourite photo" onerror="this.src='https://placehold.co/700x700/f9d5e0/8e4761?text=Add+photo3.jpg'">
+          <span class="photo-label">my happy place</span>
+        </button>
+        <button class="photo-card reveal" data-photo="images/photo4.jpg" data-caption="Here's to many more memories">
+          <img src="images/photo4.jpg" alt="Add your fourth favourite photo" onerror="this.src='https://placehold.co/700x700/f4c4d5/8e4761?text=Add+photo4.jpg'">
+          <span class="photo-label">to many more ♡</span>
+        </button>
+        <button class="photo-card reveal" data-photo="images/photo5.jpg" data-caption="Another little memory to keep forever">
+          <img src="images/photo5.jpg" alt="Add your fifth favourite photo" onerror="this.src='https://placehold.co/700x700/f7dce5/8e4761?text=Add+photo5.jpg'">
+          <span class="photo-label">one more for us ♡</span>
+        </button>
+      </div>
+      
+    </section>
+
+    <!-- 3. MEMORY TIMELINE -->
+    <section class="section memories-section" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A timeline of smiles</p>
+        <h2>Moments I'll <em>always treasure</em></h2>
+        <p>Every memory with you has its own little sparkle.</p>
+      </div>
+      <div class="timeline">
+        <article class="memory reveal">
+          <div class="memory-dot">♡</div>
+          <div class="memory-card">
+            <span class="memory-number">01 / THE BEGINNING</span>
+            <h3>The day our story started</h3>
+            <p>Some people enter your life and quietly make everything brighter. You are that person for me ✨.</p>
+            
+          </div>
+        </article>
+        <article class="memory reveal">
+          <div class="memory-dot">✦</div>
+          <div class="memory-card">
+            <span class="memory-number">02 / THE LITTLE THINGS</span>
+            <h3>Our silly, happy moments</h3>
+            <p>The random conversations, the laughter, and the tiny things that became my favourite memories♥.</p>
+            
+          </div>
+        </article>
+        <article class="memory reveal">
+          <div class="memory-dot">♥</div>
+          <div class="memory-card">
+            <span class="memory-number">03 / STILL MY FAVOURITE</span>
+            <h3>And so many more to come</h3>
+            <p>My favourite part isn't just looking back. It's knowing there are so many beautiful moments still waiting for us.I love you da Rishi💗.</p>
+            
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. LONG BIRTHDAY WISH -->
+    <section class="section wishes-section" id="wishes">
+      <div class="letter-wrap reveal">
+        <div class="letter-top">A LETTER FOR YOU <span>♡</span></div>
+        <div class="letter">
+          <p class="script">My dearest Rishikesh,</p>
+          <p>Happy birthday to the person who holds such a special place in my heart❤️. I hope today reminds you how wonderful you are and how much happiness you deserve.</p>
+          <p>May this new year of your life bring you success in everything you work for, peace in every difficult moment, courage to chase your dreams, and countless reasons to smile. I hope you always believe in yourself, even on the days when things feel challenging.</p>
+          <p>Thank you for being you — for the conversations, the laughter, the little moments, and all the memories that mean more to me than I can explain. I may not always find the perfect words, but I hope you never doubt how much you matter to me.</p>
+          <p>Keep smiling, keep dreaming, and never stop being the amazing person you are. May all the love and goodness you give to the world find its way back to you✨.</p>
+          <p class="script signoff">Happy birthday, my favourite Gulab Jamun. ♡</p>
+          <p class="signature">Forever cheering for you,<br><strong>Revathi</strong></p>
+        </div>
+        <div class="letter-bottom">MADE WITH LOVE, JUST FOR YOU ✿</div>
+      </div>
+    </section>
+
+    <!-- 5. QUOTES -->
+    <section class="section quotes-section" id="quotes">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A few words for your day</p>
+        <h2>Birthday <em>thoughts</em></h2>
+      </div>
+      <div class="quote-box reveal">
+        <span class="quote-mark">“</span>
+        <p id="quoteText">May every new chapter bring you closer to the person you dream of becoming. Keep smiling, because your smile is one of the most beautiful things. I want you to be happy in every phase of life, no matter what challenges come your way. May you always find reasons to smile, dreams to chase, and moments to cherish. Keep shining like a star and spreading your light wherever you go. ❤️✨.</p>
+        <span class="quote-credit">A little wish from Revathi ♡</span>
+        <button class="outline-btn" id="nextQuote">Another little wish ↗</button>
+      </div>
+    </section>
+
+    <!-- 6. MUSIC -->
+    <section class="section music-section" id="music">
+      <div class="music-card reveal">
+        <div class="record-wrap"><div class="record"><div class="record-center">R<span>♡</span></div></div></div>
+        <div class="music-info">
+          <p class="eyebrow">A soundtrack for your day</p>
+          <h2>Press play, <em>birthday boy</em></h2>
+          <p>Whenever I hear this song, it reminds me of you. ❤️ You're the first person who comes to my mind, and it makes me smile every single time. I hope whenever you listen to it, you'll think of me too. I want this song to always remind you of the love, happiness, and beautiful memories we share. 💗</p>
+          <div class="audio-controls">
+            <button class="play-btn" id="bigMusicToggle">▶</button>
+            <div><strong id="trackName">A song for you</strong><small id="trackStatus">Ready when you are</small></div>
+          </div>
+          <audio id="birthdayAudio" loop>
+            <source src="music/birthday-song.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. SECRET SURPRISE -->
+    <section class="section surprise-section" id="surprise">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Psst... there's one more thing</p>
+        <h2>A little <em>secret for you</em></h2>
+        <p>Something special is waiting inside. Tap to open it.</p>
+      </div>
+      <button class="envelope-button reveal" id="openLetter" aria-label="Open your secret message">
+        <span class="envelope-heart">♥</span>
+        <span class="envelope-flap"></span>
+        <span class="envelope-body"></span>
+        <span class="envelope-text">For Rishikesh</span>
+      </button>
+      <div class="secret-message" id="secretMessage" aria-live="polite">
+        <p class="script">One last thing...</p>
+        <h3>You are my favourite notification, my comfort person, and one of life's sweetest surprises💜.</h3>
+        <p>No matter how many birthdays pass, I hope you always feel celebrated, appreciated, and loved. I am so lucky to have you in my life🫂.</p>
+        <strong>With all my love, Revathi 💗</strong>
+      </div>
+    </section>
+
+    <!-- 8. CAKE -->
+    <section class="section cake-section" id="cake">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Make a birthday wish✨</p>
+        <h2>One candle, <em>a thousand wishes</em></h2>
+        <p>Tap the button to blow out the candles and celebrate!</p>
+      </div>
+      <div class="cake-stage reveal">
+        <div class="cake">
+          <div class="candles">
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+          </div>
+          <div class="cake-top"></div>
+          <div class="cake-middle"></div>
+          <div class="cake-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <p class="cake-message" id="cakeMessage">Make a wish, Rishikesh! ✨</p>
+        <button class="primary-btn" id="blowCandles">Blow out the candles ✨</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-heart">♥</div>
+    <p>Made with endless love for <strong>Rishikesh KA</strong></p>
+    <small>From Revathi, with love. Happy birthday! ♡</small>
+  </footer>
+
+  <!-- Lightbox for photos -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo preview">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Enlarged memory">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
